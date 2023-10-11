@@ -1,0 +1,30 @@
+.main-cont{
+border: 5px solid darkblue;
+height: 400px;
+width: 250px;
+display: flex;
+flex-direction: column;
+
+}
+.inside-cont{
+    display: flex;
+    flex:1;
+}
+button{
+    flex:1;
+}
+
+.display-cont{
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.display{
+    flex:1;
+    margin: 20px;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+ 
+}
